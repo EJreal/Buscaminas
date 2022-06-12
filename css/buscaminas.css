@@ -1,0 +1,44 @@
+body {
+    background-image: url(imagenes/bosque.png);
+}
+
+.tablero {
+    border: 1px solid black;
+    margin-left: 33%;
+    margin-top: 50px;
+}
+
+.tablero div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    float: left;
+    background-color: blue;
+    text-align: center;
+}
+
+#bloqueoPantalla {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 50;
+    background: url(b.png) repeat;
+}
+
+#reinicio {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    float: left;
+    border: 1px solid black;
+}
+
+#imagen {
+    height: 256px;
+    width: 250px;
+    float: left;
+    background-image: url(imagenes/voltorb.gif);
+    margin-left: 80px;
+}

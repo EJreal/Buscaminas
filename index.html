@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BUSCAMINAS</title>
+	<link rel="stylesheet" href="css/buscaminas.css" />
+	<script src="js/buscaminas.js"></script>
+</head>
+
+<body onload="cargarJuego();">
+	<h1>
+		<?php
+		$hora = (localtime(time(), true));
+
+		echo "La hora actual del servidor es: " . $hora["tm_hour"] . ":" . $hora["tm_min"] . ":" . $hora["tm_sec"];
+		?>
+	</h1>
+	
+	<div id="imagen"></div>
+	<div id="buscaminas" class="tablero">
+	</div>
+</body>
+
+</html>
+<html>
