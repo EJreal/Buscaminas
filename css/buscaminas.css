@@ -1,5 +1,6 @@
 body {
     background-image: url(imagenes/bosque.png);
+    background-size: cover;
 }
 
 .tablero {
